@@ -103,6 +103,6 @@ public class Coche {
     }
 
     public void frenar(){
-        System.out.println( tipo + "El Auto esta andando desde coche");
+        System.out.println( tipo + "El Auto esta frenando desde coche");
     }
 }
