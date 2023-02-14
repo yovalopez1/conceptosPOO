@@ -1,5 +1,7 @@
 package com.co.globant.poo;
 
+import com.co.globant.poo.models.Coche;
+
 public class ProcesosCoches {
 
     public void iniciar(){

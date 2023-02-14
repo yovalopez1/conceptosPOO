@@ -1,6 +1,8 @@
 package com.co.globant.poo;
 
-public class Autobus extends Coche{
+import com.co.globant.poo.models.Coche;
+
+public class Autobus extends Coche {
 
     public void transportarPasajeros(){
 

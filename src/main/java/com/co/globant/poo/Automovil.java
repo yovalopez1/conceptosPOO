@@ -1,6 +1,8 @@
 package com.co.globant.poo;
 
-public class Automovil extends Coche{
+import com.co.globant.poo.models.Coche;
+
+public class Automovil extends Coche {
 
     public void competir(){
 

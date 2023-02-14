@@ -1,4 +1,4 @@
-package com.co.globant.poo;
+package com.co.globant.poo.models;
 
 public class Coche {
 
