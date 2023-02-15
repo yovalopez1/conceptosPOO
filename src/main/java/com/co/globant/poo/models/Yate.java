@@ -1,6 +1,6 @@
-package com.co.globant.poo;
+package com.co.globant.poo.models;
 
-public class BaseBarco {
+public class Yate {
 
     private int largo;
     private int ancho;
@@ -9,7 +9,7 @@ public class BaseBarco {
     private int cantidadPasajeros;
     private String tipo;
 
-    public BaseBarco() {
+    public Yate() {
     }
 
     public int getLargo() {
