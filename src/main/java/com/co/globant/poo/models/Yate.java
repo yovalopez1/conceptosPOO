@@ -9,7 +9,10 @@ public class Yate {
     private int cantidadPasajeros;
     private String tipo;
 
-    public Yate() {
+    public Yate() {}
+
+    public Yate(int cantidad) {
+        this.cantidadPasajeros=cantidad;
     }
 
     public int getLargo() {

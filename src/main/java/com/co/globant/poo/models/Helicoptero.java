@@ -5,9 +5,13 @@ public class Helicoptero {
     private int pesoBase;
     private int ancho;
     private int largo;
-    private int cupoPasajeros;
+    private int cantidadPasajeros;
 
     public Helicoptero() {}
+
+    public Helicoptero(int cantidad) {
+        this.cantidadPasajeros=cantidad;
+    }
 
     public int getPesoBase() {
         return pesoBase;
@@ -33,12 +37,12 @@ public class Helicoptero {
         this.largo = largo;
     }
 
-    public int getCupoPasajeros() {
-        return cupoPasajeros;
+    public int getcantidadPasajeros() {
+        return cantidadPasajeros;
     }
 
-    public void setCupoPasajeros(int cupoPasajeros) {
-        this.cupoPasajeros = cupoPasajeros;
+    public void setcantidadPasajeros(int cantidad) {
+        this.cantidadPasajeros = cantidad;
     }
 
     public void despegar(){
@@ -49,3 +53,6 @@ public class Helicoptero {
         System.out.println("El elicoptero esta aterrizando");
     }
 }
+//helicoptero grua
+//helicoptero militar
+//helicopteros civiles

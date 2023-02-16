@@ -1,6 +1,8 @@
 package com.co.globant.poo;
 
 import com.co.globant.poo.models.Coche;
+import com.co.globant.poo.models.Helicoptero;
+import com.co.globant.poo.models.Yate;
 
 public class ProcesosTransportes {
 
@@ -32,5 +34,18 @@ public class ProcesosTransportes {
                 "\n y el peso del colectivo es " + colectivo.getPesoTotal());
         colectivo.acelerar();
         colectivo.frenar();
+
+        Helicoptero helicopteroCivil = new Helicoptero();
+        helicopteroCivil.setcantidadPasajeros(3);
+        helicopteroCivil.despegar();
+        System.out.println("El helicoptero esta transportando los " +helicopteroCivil.getcantidadPasajeros()+ " pasajeros");
+        helicopteroCivil.aterrizar();
+
+        Yate yateComercial = new Yate();
+        yateComercial.getCantidadPasajeros();
+        yateComercial.arrancar();
+        System.out.println("El yate esta transportando los pasajeros a una isla");
+        yateComercial.Anclar();
+
     }
 }
